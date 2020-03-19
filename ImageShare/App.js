@@ -35,6 +35,7 @@ export default function App() {
   };
 
   if (selectedImage !== null) {
+    console.log('Entererd into this')
     return (
       <View style={styles.container}>
         <Image
@@ -46,6 +47,9 @@ export default function App() {
       </TouchableOpacity>
       </View>
     );
+  }
+  else {
+    console.log('Sharing did not occur');
   }
 
 
@@ -61,7 +65,7 @@ export default function App() {
         <TouchableOpacity
         onPress={openImagePickerAsync}
         style={ styles.button }>
-          <Text style={styles.buttonText}>comeeeee Pick a photo so so </Text>
+          <Text style={styles.buttonText}> Pick a photo final </Text>
         </TouchableOpacity>
 
     </View>

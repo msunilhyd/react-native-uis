@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Blank Template",
-    "slug": "ImageShare",
+    "slug": "animated-login",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
